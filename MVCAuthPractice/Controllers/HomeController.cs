@@ -25,10 +25,8 @@ namespace MVCAuthPractice.Controllers
             _context = ctx;
         }
 
-        public async Task<IActionResult> IndexAsync()
+        public IActionResult Index()
         {
-
-            var user = await GetCurrentUserAsync();
 
             return View();
         }
