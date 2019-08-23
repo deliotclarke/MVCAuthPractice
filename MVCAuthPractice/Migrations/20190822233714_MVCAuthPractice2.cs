@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MVCAuthPractice.Migrations
 {
-    public partial class MVCAuthPractice1 : Migration
+    public partial class MVCAuthPractice2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

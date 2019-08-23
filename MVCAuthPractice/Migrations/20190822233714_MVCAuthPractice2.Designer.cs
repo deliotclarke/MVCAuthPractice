@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVCAuthPractice.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190822231916_MVCAuthPractice1")]
-    partial class MVCAuthPractice1
+    [Migration("20190822233714_MVCAuthPractice2")]
+    partial class MVCAuthPractice2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
